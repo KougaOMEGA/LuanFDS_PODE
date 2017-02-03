@@ -1,0 +1,136 @@
+body {
+	width: 98%;
+	color: #FFFFFF; /* cor do texto em geral */
+	font-size: 1.5em; /* tamanho da fonte em geral */
+	margin: auto; /* posicionamento centralizado */
+	background-color: #f79347; /* fundo laranja */ 
+	background-color: #FFFFFF;
+	color: #0e3651;
+	
+}
+
+#desenho{
+	text-align: center;
+	font-size: 2em;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;*/
+}
+
+/* ========== INICIO Alinhamento do logo ========== */
+img {
+	width: 250px; /* Valor relacionado com #centro (width)*/
+	margin: auto;
+}
+
+#centro{
+	width: 250px; /* Valor relacionado com img (width)*/
+	margin: auto;
+	padding-bottom: 10px;
+}
+/* ========== FIM Alinhamento do logo ========== */
+
+/* ========== DIV Principal ========== */
+#main{
+	width: 50%;
+	margin: auto;
+	background-color: #56be9a;
+	background-color: #f79347;
+	background-color: #FFFFFF;
+	margin-top: 30px;
+	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 1px solid #0e3651;
+	border-radius: 30px;
+	
+}
+/* ========== DIV Principal ========== */
+
+h1, h2 {
+	text-align: center;
+	/*text-shadow: 0.1em 0.05em 0.05em #ed4147;*/
+	margin: auto;
+	font-family: nv, Verdana;
+}
+
+h2 {
+	font-weight: bold;
+	/*text-decoration: underline;*/
+}
+
+footer{
+	width: 90%;
+	margin: auto;
+	font-family: nv, Verdana;
+	font-size: 0.5em;
+	text-align: center;
+	color: #0e3651;
+	clear: both;
+}
+
+a{
+	color: #0e3651;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited{
+	color: #0e3651;
+}
+
+a:hover{
+	color:#f79347;
+}
+
+
+/* ========== Importando a fonte externa ========== */
+@font-face {
+    font-family: "bira";
+    src: url("../fonts/bira/bira.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nv";
+    src: url("../fonts/nv/riffic.otf") format("truetype");
+}
+/* ========== Importando a fonte externa ========== */
+
+
+/* ========== Criando site responsivo ========== */
+
+/* ========== MONITOR ========== */
+@media screen and (min-width: 980px){
+
+}
+
+/* ========== TABLET ========== */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+	#main{
+		width: 70%;
+	}
+}
+
+/* ========== SMARTPHONE ========== */
+@media screen and (min-width: 0px) and (max-width: 767px){
+
+	body{
+		min-width: 540px;
+	}
+
+	#main{
+		width: 80%;
+	}
+	/*
+	img {
+		width: 200px; /* Valor relacionado com #centro (width)
+		margin: auto;
+	}
+
+	#centro{
+		width: 200px; /* Valor relacionado com img (width)
+		margin: auto;
+	}
+	*/
+}
